@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri May 26 14:11:43 CST 2023","Fri May 26 14:11:43 CST 2023","95","","test_casedome","Test_show","","","用例名称：登录",""
+"passed","Fri May 26 16:03:01 CST 2023","Fri May 26 16:03:01 CST 2023","92","","test_casedome","Test_show","","","用例名称：登录成功",""
+"passed","Fri May 26 16:03:01 CST 2023","Fri May 26 16:03:01 CST 2023","810","","test_casedome","Test_show","","","用例名称：打开pytest文档",""
+"failed","Fri May 26 16:03:01 CST 2023","Fri May 26 16:03:02 CST 2023","69","","test_casedome","Test_show","","","用例名称：打开简书首页",""

@@ -1,0 +1,7 @@
+2023-05-26 15:55:36 (connectionpool.py:1048) DEBUG    Starting new HTTPS connection (1): www.jianshu.com:443
+2023-05-26 15:55:36 (connectionpool.py:546) DEBUG    https://www.jianshu.com:443 "GET / HTTP/1.1" 403 None
+2023-05-26 15:55:36 (test_casedome.py:26 ) ERROR    main Exception: Traceback (most recent call last):
+  File "C:\Users\Hasee\PycharmProjects\pythonProjectForWork\interfaceAutomationTest\case\test_casedome.py", line 23, in test_01
+    assert result == resp.status_code
+AssertionError: assert 304 == 403
+ +  where 403 = <Response [403]>.status_code

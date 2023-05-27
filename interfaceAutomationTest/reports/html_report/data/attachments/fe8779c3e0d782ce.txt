@@ -1,0 +1,6 @@
+2023-05-26 15:51:09 (connectionpool.py:1048) DEBUG    Starting new HTTPS connection (1): learning-pytest.readthedocs.io:443
+2023-05-26 15:51:10 (connectionpool.py:546) DEBUG    https://learning-pytest.readthedocs.io:443 "GET /zh/latest/doc/test-function/mark.html HTTP/1.1" 200 None
+2023-05-26 15:51:10 (test_casedome.py:26 ) ERROR    main Exception: Traceback (most recent call last):
+  File "C:\Users\Hasee\PycharmProjects\pythonProjectForWork\interfaceAutomationTest\case\test_casedome.py", line 23, in test_01
+    assert result == resp.status_code()
+TypeError: 'int' object is not callable

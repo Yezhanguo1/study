@@ -1,0 +1,3 @@
+2023-05-26 16:03:01 (connectionpool.py:1048) DEBUG    Starting new HTTPS connection (1): learning-pytest.readthedocs.io:443
+2023-05-26 16:03:01 (connectionpool.py:546) DEBUG    https://learning-pytest.readthedocs.io:443 "GET /zh/latest/doc/test-function/mark.html HTTP/1.1" 200 None
+2023-05-26 16:03:01 (test_casedome.py:30 ) INFO     打开pytest文档||执行成功，实际结果-200-符合预期
