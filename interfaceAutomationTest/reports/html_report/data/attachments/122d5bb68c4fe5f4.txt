@@ -1,3 +1,0 @@
-2023-05-26 16:03:01 (connectionpool.py:1048) DEBUG    Starting new HTTPS connection (1): www.baidu.com:443
-2023-05-26 16:03:01 (connectionpool.py:546) DEBUG    https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
-2023-05-26 16:03:01 (test_casedome.py:30 ) INFO     登录成功||执行成功，实际结果-200-符合预期

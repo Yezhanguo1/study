@@ -1,3 +1,7 @@
+import os
+import sys
+sys.path.append('..')
+sys.path.append(os.path.dirname(sys.path[0]))
 from openpyxl import Workbook, load_workbook
 
 
@@ -18,6 +22,6 @@ class Excel:
         return case_param_list
 
 
-if __name__ == '__main__':
-    a=Excel.read_case_excel(Excel(),file_path="../case/test_case_date.xlsx",Sheel_name="denglu")
+# if __name__ == '__main__':
+#     a=Excel.read_case_excel(Excel(),file_path="../case/test_case_date.xlsx",Sheel_name="denglu")
 

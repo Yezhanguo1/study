@@ -9,7 +9,7 @@ class Logger:
 
         # 创建handler
         stream_handler = logging.StreamHandler()
-        file_handler = logging.FileHandler('../log/test.log')
+        file_handler = logging.FileHandler('C:/Users/Hasee/PycharmProjects/pythonProjectForWork/interfaceAutomationTest/log/test.log')
 
         stream_handler.setLevel(logging.DEBUG)
         file_handler.setLevel(logging.DEBUG)
